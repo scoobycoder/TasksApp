@@ -10,11 +10,11 @@ Create an application with the framework of your choice (Rails, Django, etc) tha
 
 |VERB   |PATH   |User for   |
 |---|---|---|
-|GET |/tasks |display a list of all photos
-|POST  |/tasks |create a new photo
-|GET |/tasks/:id |display a specific photo
-|PATCH/PUT |/tasks/:id |update a specific photo
-|DELETE  |/tasks/:id |delete a specific photo
+|GET |/tasks |display a list of all tasks
+|POST  |/tasks |create a new task
+|GET |/tasks/:id |display a specific task
+|PATCH/PUT |/tasks/:id |update a specific task
+|DELETE  |/tasks/:id |delete a specific task
 
 ##Purpose of challenge
 - Learn RESTful routes
