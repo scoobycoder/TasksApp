@@ -23,5 +23,6 @@ Create an application with the framework of your choice (Rails, Django, etc) tha
 - Familiarity with HTTP methods
 
 ##Resources
+- [Mozilla on HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 - [Mozilla HTML forms guide](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms)
 - [Why are there no PUT & DELETE methods on HTML forms?](https://programmers.stackexchange.com/questions/114156/why-are-there-are-no-put-and-delete-methods-on-html-forms)
