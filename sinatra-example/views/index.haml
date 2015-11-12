@@ -14,7 +14,7 @@
           %li
             %a{href: "/tasks/#{t.id}"}
               [x] #{t.title}
-            %form{method: 'delete', action: "/tasks/#{t.id}"}
+            %form{method: 'post', action: "/tasks/#{t.id}"}
               %input{type:'hidden', name: '_method', value: 'delete'}
               %input{type:'submit', value: 'Delete'}
 
