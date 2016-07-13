@@ -1,2 +1,9 @@
 <h1>Task#get_id,</h1>
 <p>Find me in app/views/task/get_id.html.erb</p>
+
+<% @tasks.each do |task| %>
+    <tr>
+      <td><%= task.name %></td>
+      <td><%= task.complete %></td>
+    </tr>
+<% end %>
