@@ -1,6 +1,12 @@
 <h1>Task#get_id,</h1>
 <p>Find me in app/views/task/get_id.html.erb</p>
 
+<label for="name">Task description:</label>
+<%= text_field(:task, :add_task) %>
+<br>
+<label for="complete">Completed?</label>
+<input id="complete" name="complete" type="checkbox" value="0" />
+<br>
 <%
    @tasks = []
     task = Task.new()
