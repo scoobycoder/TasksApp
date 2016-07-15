@@ -6,7 +6,7 @@ Rails.application.routes.draw do
 
   get 'task/post'
 
-  get 'task/get_id'
+  get 'task/get_id' => 'task#get_id'
 
   get 'task/put'
 

@@ -7,13 +7,6 @@
 <label for="complete">Completed?</label>
 <input id="complete" name="complete" type="checkbox" value="0" />
 <br>
-<%
-   @tasks = []
-    task = Task.new()
-   task.name = 'Mow'
-   task.complete = false
-   @tasks << task
-%>
 
 <% @tasks.each do |task| %>
     <tr>
