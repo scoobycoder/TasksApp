@@ -8,7 +8,7 @@ Rails.application.routes.draw do
 
   get 'task/get_id' => 'task#get_id'
 
-  get 'task/put'
+  get 'task/put' => 'task#put'
 
   get 'task/delete'
 

@@ -3,8 +3,8 @@ class TaskController < ApplicationController
     @task = Task.all
   end
 
-  def search_path
-    p 'I searched'
+  def put
+    p 'called put'
   end
 
 end
