@@ -4,7 +4,7 @@ class TaskController < ApplicationController
   end
 
   def put
-    p 'called put'
+    @task = Task.new
   end
 
 end
