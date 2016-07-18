@@ -1,10 +1,15 @@
 class TaskController < ApplicationController
-  def index
-    @task = Task.all
-  end
 
   def put
     @task = Task.new
+  end
+
+  def post
+    @task = Task.new
+  end
+
+  def get
+
   end
 
 end
