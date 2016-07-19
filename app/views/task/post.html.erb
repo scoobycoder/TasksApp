@@ -1,9 +1,11 @@
 <h1>Task#post,</h1>
 
+<% form_for @task do |f| %>
 <label for="name">Task description:</label>
-<%= text_field(:task, :add_task) %>
+<%= text_field(:task, :post) %>
 <br>
 <label for="complete">Completed?</label>
 <input id="complete" name="complete" type="checkbox" value="0" />
-<%= submit_tag("Create") %>
+    <p><%= f.submit 'Create' %></p>
 <br>
+<% end %>
