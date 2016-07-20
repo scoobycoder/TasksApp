@@ -5,8 +5,10 @@ class TaskController < ApplicationController
   end
 
   def post
-    @task = Task.new
-    Task.create(name: 'Mow', complete: false)
+    @task = Task.new(params[:task])
+
+    @task.save
+    redirect_to @task
   end
 
   def get

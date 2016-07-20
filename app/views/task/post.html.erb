@@ -1,6 +1,6 @@
 <h1>Task#post,</h1>
 
-<%= form_for :task do |f| %>
+<%= form_for :task, url: task_path do |f| %>
     <p>
       <%= f.label :name %><br>
       <%= f.text_field :name %>
