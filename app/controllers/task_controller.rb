@@ -8,7 +8,7 @@ class TaskController < ApplicationController
     @task = Task.new(params[:task])
 
     @task.save
-    redirect_to @task
+    # redirect_to @task
   end
 
   def get
