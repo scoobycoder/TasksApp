@@ -3,8 +3,6 @@ class TasksController < ApplicationController
   end
 
   def create
-    render plain: params[:task].inspect
-
     @task = Task.new(task_params)
 
     @task.save
@@ -14,5 +12,5 @@ end
 
 private
 def task_params
-  params.require(:task).permit(:task, :complete)
+  params.require(:task).permit(:name, :complete)
 end
