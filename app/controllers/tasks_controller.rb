@@ -8,6 +8,11 @@ class TasksController < ApplicationController
     @task.save
     redirect_to @task
   end
+
+  def show
+    @task = Task.find(params[:id])
+  end
+
 end
 
 private
